@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group the form field</title>
+    <link rel="stylesheet" href="#">
+</head>
+<body>
+
+    <form action="">
+
+        <!-- The <fieldset> tag groups related form fields together and draws a box around them -->
+        <fieldset>
+
+            <!-- The <legend> tag defines the title for the fieldset -->
+            <legend>Personal Information:</legend>
+
+            <!-- Label for Full Name -->
+            <label for="fname">Full Name:</label>
+
+            <!-- Input for name with placeholder text -->
+            <input type="text" id="fname" placeholder="Enter Name">
+            <br><br>
+
+            <!-- Label for Email -->
+            <label for="email">Email:</label>
+
+            <!-- Input for email -->
+            <input type="text" id="email">
+            <br><br>
+
+            <!-- Gender selection using radio buttons -->
+            <label>Gender:</label> 
+            <br>
+
+            <!-- Female option -->
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label>
+            <br>
+
+            <!-- Male option -->
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Male</label>
+            <br><br>
+
+            <!-- Date input field for Birthday -->
+            <label for="Birthday">Birthday:</label>
+            <input type="date" id="Birthday" name="Birthday">
+            <br><br>
+             <!-- Submit button -->
+             <input type="submit">
+
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
